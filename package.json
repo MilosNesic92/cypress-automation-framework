@@ -1,0 +1,19 @@
+{
+  "name": "cypress-automation-framework",
+  "version": "1.0.0",
+  "description": "Cypress Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "headless:chrome": "npx cypress run --browser chrome",
+    "headless-edge": "npx cypress run --browser edge"
+  },
+  "author": "Milos N",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^13.8.0",
+    "cypress-xpath": "^2.0.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
