@@ -7,5 +7,6 @@ module.exports = defineConfig({
     },
     specPattern: "cypress/e2e/**/*.{js,jsx,ts,tsx,feature}",
     baseUrl: 'https://the-internet.herokuapp.com',
+    screenshotOnRunFailure: true,
   },
 });
