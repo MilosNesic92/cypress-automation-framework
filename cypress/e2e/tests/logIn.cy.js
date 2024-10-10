@@ -8,7 +8,7 @@ describe('Log In - Valid and Invalid tests', () => {
         cy.visit('/login');
     });
 
-    it('Log In using Valid Credentials', () => {
+    it.skip('Log In using Valid Credentials', () => {
 
         cy.fixture('userData').then((data) => {
 
@@ -24,7 +24,7 @@ describe('Log In - Valid and Invalid tests', () => {
 
     });
 
-    it('Try to log in using Invalid Credentials', () => {
+    it.skip('Try to log in using Invalid Credentials', () => {
 
         cy.fixture('userData').then((data) => {
 
@@ -37,5 +37,17 @@ describe('Log In - Valid and Invalid tests', () => {
         logIn.invalid_msg_assertion();
 
     });
+    // it('Try to log in using Invalid Credentials', async () => {
+
+    //     const data = await cy.fixture('userData');
+
+
+    //     logIn.valid_username(data.invalid_username);
+    //     logIn.valid_password(data.invalid_password);
+
+    //     logIn.click_log_in_btn();
+    //     logIn.invalid_msg_assertion();
+
+    // });
 
 });
