@@ -45,7 +45,7 @@ Run a specific test file: **npx cypress run --spec "cypress/integration/test_fil
 
 **Important note**
 
-If Cypress does not open, the the following solutions: 
+If Cypress does not open, try the following solutions: 
   - Ensure all packages are installed correctly: npm install
   - if "cypress open" command fails, try using "npx" to ensure you're using correct version: npx cypress open
 
