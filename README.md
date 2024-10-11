@@ -30,16 +30,17 @@ Before setting up the project, ensure you have the following installed:
 
 Usefull Cypress Commands:
 
-Run Cypress tests in Headless mode: npx cypress run 
-Run Cypress tests in Headless mode using Edge browser: npx cypress run --headless --browser edge
-Run Cypress tests in Headless mode using Chrome browser: npx cypress run --headless --browser chrome
-Run Cypress tests in Headed mode using Edge browser: npx cypress run --headed --browser edge
-Run Cypress tests in Headed mode using Chrome browser: npx cypress run --headed --browser chrome
-Run a specific test file: npx cypress run --spec "cypress/integration/test_file_name.js"
+Run Cypress tests in Headless mode: **npx cypress run** 
+Run Cypress tests in Headless mode using Edge browser: **npx cypress run --headless --browser edge**
+Run Cypress tests in Headless mode using Chrome browser: **npx cypress run --headless --browser chrome**
+Run Cypress tests in Headed mode using Edge browser: **npx cypress run --headed --browser edge**
+Run Cypress tests in Headed mode using Chrome browser: **npx cypress run --headed --browser chrome**
+Run a specific test file: **npx cypress run --spec "cypress/integration/test_file_name.js"**
 
 
 **Important note**
-If Cypress does not open, tye the following solutions: 
+
+If Cypress does not open, the the following solutions: 
   - Ensure all packages are installed correctly: npm install
   - if "cypress open" command fails, try using "npx" to ensure you're using correct version: npx cypress open
 
