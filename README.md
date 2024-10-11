@@ -22,7 +22,9 @@ Before setting up the project, ensure you have the following installed:
       **npm install cypress --save-dev**
 
 3. Once Cypress is installed, you can open Cypress Test Runner by typing the following command in your Terminal:
-     ** npx cypress open**
+   
+     **npx cypress open**
+   
    This will open the Cypress Test Runner, where you can see and execute your tests interactively.
 
 4. Alternatively, you can run Cypress in headless mode, which is useful for Continuous Integration (CI) environments or faster test execution:
