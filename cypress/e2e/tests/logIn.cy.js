@@ -50,4 +50,13 @@ describe('Log In - Valid and Invalid tests', () => {
 
     // });
 
+    it.only('Log In and Log Outusing Cypress Commands', () => {
+
+        const email = "tomsmith";
+        const password = "SuperSecretPassword!";
+
+        cy.logincommand(email,password);
+        
+    });
+
 });
